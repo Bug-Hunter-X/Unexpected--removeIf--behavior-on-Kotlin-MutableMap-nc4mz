@@ -1,0 +1,1 @@
+This repository demonstrates an unexpected behavior of the `removeIf` function when used with `MutableMap` in Kotlin. While `removeIf` works as expected with `MutableList` and `MutableSet`, its behavior with `MutableMap` is inconsistent unless you use the entrySet. This example shows the different behaviors and offers a workaround.
